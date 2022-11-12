@@ -19,5 +19,6 @@
         }
     },
     "postCreateCommand": ".devcontainer/postCreate.sh",
+    "postAttachCommand": ".devcontainer/postAttach.sh",
     "remoteUser": "vscode"
 }
