@@ -1,0 +1,18 @@
+{
+    "name": "Django",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "..",
+        "args": {
+            "VARIANT": "3-buster"
+        }
+    },
+    "portsAttributes": {
+        "8000": {
+            "label": "Django Server",
+            "onAutoForward": "notify"
+        }
+    },
+    "postCreateCommand": ".devcontainer/postCreate.sh",
+    "remoteUser": "vscode"
+}
