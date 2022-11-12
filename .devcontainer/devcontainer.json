@@ -7,7 +7,10 @@
             "VARIANT": "3-buster"
         }
     },
-    "extensions": ["EditorConfig.EditorConfig"],
+    "extensions": [
+        "EditorConfig.EditorConfig",
+        "ms-python.black-formatter"
+    ],
     "portsAttributes": {
         "8000": {
             "label": "Django Server",
