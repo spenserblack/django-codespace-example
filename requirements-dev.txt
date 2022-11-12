@@ -1,3 +1,4 @@
 black>=22,<23
 flake8>5,<6
 isort>=5,<6
+pre-commit>=2.20,<3
