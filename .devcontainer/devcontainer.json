@@ -8,10 +8,10 @@
         }
     },
     "extensions": [
-		"EditorConfig.EditorConfig",
-		"ms-python.black-formatter",
-		"ms-python.flake8"
-	],
+        "EditorConfig.EditorConfig",
+        "ms-python.black-formatter",
+        "ms-python.flake8"
+    ],
     "portsAttributes": {
         "8000": {
             "label": "Django Server",
