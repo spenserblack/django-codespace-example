@@ -1,0 +1,16 @@
+{% extends "main/base.html" %}
+{% block title %}Posts{% endblock %}
+
+{% block body %}
+  {% for post in posts %}
+    <div class="post">
+      <span class="created-time">{{ post.created_at }}</span>
+      <p class="post-content">{{ post.text }}</p>
+    </div>
+  {% endfor %}
+  <form class="new-post-form-container" method="POST">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Post">
+  </form>
+{% endblock %}
