@@ -5,6 +5,8 @@
 
 An example of a GitHub codespace for a Django app
 
+See [GitHub's official Django codespace template, too](https://github.com/github/codespaces-django).
+
 ## Getting Started
 
 Click the "Code" button in the top right, and use the "Codespaces" tab to crate a new codespace.
