@@ -1,7 +1,6 @@
 # Django Codespace Example
 
 [![CI](https://github.com/spenserblack/django-codespace-example/actions/workflows/ci.yml/badge.svg)](https://github.com/spenserblack/django-codespace-example/actions/workflows/ci.yml)
-![Codespaces Prebuilds](https://github.com/spenserblack/django-codespace-example/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)
 
 An example of a GitHub codespace for a Django app
 
